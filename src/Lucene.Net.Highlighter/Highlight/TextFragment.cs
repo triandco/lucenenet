@@ -43,6 +43,7 @@ namespace Lucene.Net.Search.Highlight
             protected internal set => score = value;
         }
 
+        // LUCENENET specific - made these fields into properties
         public int TextEndPos { get; internal set; }
         public int TextStartPos { get; internal set; }
 
